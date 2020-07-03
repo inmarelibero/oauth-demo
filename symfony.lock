@@ -1,4 +1,7 @@
 {
+    "defuse/php-encryption": {
+        "version": "v2.2.1"
+    },
     "doctrine/annotations": {
         "version": "1.0",
         "recipe": {
@@ -81,11 +84,32 @@
     "egulias/email-validator": {
         "version": "2.1.18"
     },
+    "lcobucci/jwt": {
+        "version": "3.3.2"
+    },
+    "league/event": {
+        "version": "2.2.0"
+    },
+    "league/oauth2-server": {
+        "version": "8.1.0"
+    },
     "monolog/monolog": {
         "version": "2.1.0"
     },
     "nikic/php-parser": {
         "version": "v4.5.0"
+    },
+    "nyholm/psr7": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "7c0a9352a57376f04f5444e74565102c3a23d0c7"
+        },
+        "files": [
+            "config/packages/nyholm_psr7.yaml"
+        ]
     },
     "ocramius/package-versions": {
         "version": "1.5.1"
@@ -95,6 +119,9 @@
     },
     "php": {
         "version": "7.3"
+    },
+    "php-http/message-factory": {
+        "version": "v1.0.2"
     },
     "phpdocumentor/reflection-common": {
         "version": "2.2.0"
@@ -113,6 +140,12 @@
     },
     "psr/event-dispatcher": {
         "version": "1.0.0"
+    },
+    "psr/http-factory": {
+        "version": "1.0.1"
+    },
+    "psr/http-message": {
+        "version": "1.0.1"
     },
     "psr/link": {
         "version": "1.0.0"
@@ -370,6 +403,9 @@
     "symfony/property-info": {
         "version": "v5.1.2"
     },
+    "symfony/psr-http-message-bridge": {
+        "version": "v2.0.1"
+    },
     "symfony/routing": {
         "version": "5.1",
         "recipe": {
@@ -500,6 +536,19 @@
     },
     "symfony/yaml": {
         "version": "v5.1.2"
+    },
+    "trikoder/oauth2-bundle": {
+        "version": "3.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "3.0",
+            "ref": "a7511afeb7841ed7da530b0e11a82d245f00fb0e"
+        },
+        "files": [
+            "config/packages/trikoder_oauth2.yaml",
+            "config/routes/trikoder_oauth2.yaml"
+        ]
     },
     "twig/extra-bundle": {
         "version": "v3.0.3"

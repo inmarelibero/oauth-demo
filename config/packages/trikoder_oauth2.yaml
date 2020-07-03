@@ -1,0 +1,14 @@
+trikoder_oauth2:
+    authorization_server:
+        private_key: /Users/inmarelibero/www/oauth_demo/private.key                     # Change this
+        private_key_passphrase: null                            # Passphrase of the private key, if any
+
+        encryption_key: '%env(string:OAUTH2_ENCRYPTION_KEY)%'   # (Optional) Change this
+        enable_implicit_grant: false
+
+    resource_server:
+        public_key: /Users/inmarelibero/www/oauth_demo/public.key                       # Change this
+
+    persistence:
+        doctrine:
+            entity_manager:       default
